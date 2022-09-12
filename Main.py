@@ -10,7 +10,7 @@ def selectionSort(array, size) -> List[int]:
     array[i],array[min] = array[min],array[i]
     
     for k in range(len(array)):
-      print(array[k])
+      print(array[k],end=" ,")
                              
 
 # Do not change the following code
