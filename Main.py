@@ -1,7 +1,14 @@
 from typing import List
 
 def selectionSort(array, size) -> List[int]:
-  # Write your code here
+  for i in range(len(size)):
+    min = i
+    for j in range(j=i+1,len((size):
+      if array[min] > array[j]:
+          min = j
+                             
+    array[i],array[min] = array[min],array[i]
+                             
 
 # Do not change the following code
 input_data = input()
